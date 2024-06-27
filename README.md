@@ -4,7 +4,15 @@ I have tested the Kanarya and Trendyol models for the classification problem on 
 
 ### [Kanarya-750m](https://huggingface.co/asafaya/kanarya-750m)
 
-**basic-kanarya.ipynb** file contains the code and results for testing the trained and untrained Kanarya model on detecting hate speech in tweets from the X platform. Due to hardware limitations, I was barely able to train the model. However, for comprehensive training, you can achieve much better results by increasing the values of parameters such as batch_size and epoch, and by tuning hyperparameters like learning_rate.
+**basic-kanarya.ipynb** file contains the code and results for testing the trained and untrained Kanarya model on detecting hate speech in tweets from the X platform. 
+
+Due to hardware limitations, I was barely able to train the model. However, for comprehensive training, you can achieve much better results by increasing the values of parameters such as batch_size and epoch, and by tuning hyperparameters like learning_rate.
+
+Results of Untrained Kanarya-750m with a classification header added:
+
+| f1 score (macro) | f1 score (micro)| f1 score (weighted)
+| ------------- | ------------- | ------------- |  
+ | 0.42 | 0.43 | 0.44  |
 
 **prompt_kanarya.ipynb** file contains experiments using the Kanarya model's text generation capabilities without modifying the model or adding a classification header. This file includes the code for classification using the prompt approach, optimized with Bitsandbytes and LoRA techniques. However, the experiment did not perform classification as intended and instead continued generating text based on the learned data, resulting in a failed attempt.
 
