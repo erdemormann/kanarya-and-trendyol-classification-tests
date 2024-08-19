@@ -1,6 +1,13 @@
 # Kanarya and Trendyol Classification Tests
 
-I have tested the Kanarya and Trendyol models for the classification problem on the Turkish tweet hate speech detection dataset.
+I have tested the Kanarya and Trendyol models for the classification problem on the Turkish tweet hate speech detection dataset. 
+
+My purpose is to detect whether there is hate speech in Turkish tweets or not.
+
+### [The Dataset](https://github.com/boun-tabi/case-2024-hsd-2lang/)
+
+[📖 PDF in ACL anthology](https://aclanthology.org/2024.case-1.32.pdf)
+
 
 ### [Kanarya-750m](https://huggingface.co/asafaya/kanarya-750m)
 
@@ -31,3 +38,23 @@ Here is the result of it:
 | "Bir metin nefret içeriyorsa veya tehdit, kişisel saldırı, iftira veya istismar gibi metinsel nefret içeriyorsa nefret içerikli olarak sınıflandırılır. Bir metin, olayları bildiriyorsa veya başkalarının görüşlerini nefret içermeyen bir şekilde objektif olarak bildiriyorsa nefret içermeyen olarak kabul edilir."  | 0.36  | 0.40  | 0.42  |
 
 **Note:** You can run all code files directly on Kaggle or Colab platforms with a T4 GPU.
+
+**Colab links of the codes:**
+
+| notebook       | open in colab                             |
+|----------------|---------------------------------------------|
+| basic-kanarya.ipynb          | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CqXcfAWxS2dMJRNH2HgRMmDKQMsDQSbN?usp=drive_open)
+| prompt_kanarya.ipynb         | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ANBjzDX3aZM3DGrE_5ytP8MIw7Os6yGi?usp=drive_open) |
+| prompt_trendyol_v2.ipynb     | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HvvlLMDhv_o7o94PvsIg4rEWeD8j3vjc?usp=drive_open) |
+
+
+## Contact 📧
+
+Feel free to reach out if you have any questions or would like to connect!
+
+**Erdem Orman** [erdemormann@gmail.com](mailto:erdemormann@gmail.com)
+
+
+
+
+
