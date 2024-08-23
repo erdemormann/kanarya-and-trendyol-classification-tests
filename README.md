@@ -45,7 +45,7 @@ Here is the result of it:
 |----------------|---------------------------------------------|
 | basic-kanarya.ipynb          | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CqXcfAWxS2dMJRNH2HgRMmDKQMsDQSbN?usp=drive_open)
 | prompt_kanarya.ipynb         | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ANBjzDX3aZM3DGrE_5ytP8MIw7Os6yGi?usp=drive_open) |
-| prompt_trendyol_v2.ipynb     | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HvvlLMDhv_o7o94PvsIg4rEWeD8j3vjc?usp=drive_open) |
+| prompt_trendyol_v2.ipynb     | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pilB1a0yg5tUxGb1RgxrmNty5eQDDCoF?usp=drive_open) |
 
 
 ## Contact 📧
